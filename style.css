@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5c55aa;
+    margin: 0;
+    padding: 20px;
+}
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 42px;
+    font-family: fontetitulo;
+    color: #520063;
+    background-color: #a683bd;
+    text-shadow: 4px 4px 7px #321d4dbb;
+    box-shadow: 2px 2px 5px 2px #2f2b57;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 10px 60px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+@font-face {
+    font-family: fontetitulo;
+    src: url(fonte/Almond\ Milky.otf);
+}
